@@ -139,7 +139,7 @@
     <svg fill="none" height="75" viewBox="0 0 14 15" width="32" xmlns="http://www.w3.org/2000/svg"><g stroke="#4147d5" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"><path d="m6.99998 14.1638c3.42172 0 6.19562-2.7739 6.19562-6.1956 0-3.42174-2.7739-6.19562-6.19562-6.19562-3.42174 0-6.195613 2.77388-6.195613 6.19562 0 3.4217 2.773873 6.1956 6.195613 6.1956z" fill="#d7e0ff"/><g fill="#fff"><path d="m2.94894 10.3511c.4424 0 .86667-.1757 1.17949-.48853.31282-.31282.48856-.7371.48856-1.17949v-1.42976c0-.4424.17575-.86667.48857-1.17949s.73709-.48856 1.17948-.48856c.4424 0 .86667-.17574 1.17949-.48856.31283-.31282.48857-.7371.48857-1.17949v-2.07178c-.31069-.04797-.62901-.07286-.95313-.07286-3.42175 0-6.195618 2.77388-6.195618 6.19562 0 .84441.168928 1.64937.474838 2.3829z"/><path d="m13.1949 7.87257c-.4771-.24742-1.0061-.37799-1.5436-.38095h-2.03022c-.44239 0-.86667.17574-1.17949.48856s-.48856.7371-.48856 1.17949c0 .4424.17574.86663.48856 1.17953.31282.3128.7371.4885 1.17949.4885.316 0 .61902.1256.84252.349.2234.2234.3489.5265.3489.8425v.8292h.0048c1.4389-1.127 2.3667-2.8766 2.3782-4.84334v-.0737c-.0001-.01962-.0003-.03921-.0006-.05879z"/></g></g></svg>
     <span class="username"><strong>USNNCC54321</strong></span>
     <div class="menu">
-      <div id="menuIcon" class="icon" onclick="window.location.href='file:///C:/Users/christabel/Downloads/Stats.html'">
+      <div id="menuIcon" class="icon" onclick="goBack()">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <title>arrow-left-circle</title>
           <path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" />
@@ -187,6 +187,10 @@
 </div>
 
 <script>
+  function goBack() {
+    window.history.back();
+  }
+
   function goToPreviousPage() {
     // Ajoutez ici le code pour aller à la page précédente
   }
